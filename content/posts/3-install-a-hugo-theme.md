@@ -18,20 +18,32 @@ git init
 git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini
 ```
 
-> **git init** - Initializes your myWebsite folder into a git repository. This means you will be able to store your code  on GitHub
+> **git init** - Initializes your myWebsite folder into a git repository. This means you will be able to store your code  on GitHub.
 
 Open your `myWebsite` folder on your computer, navigate to `themes/mini/exampleSite`.
 
 ![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/3/miniThemes.gif?raw=true)
 
-Copy the content, layouts, static and config.yaml files into your `myWebsite` folder
+Copy the content, layouts, static and config.yaml files into your `myWebsite` folder.
+
+![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/3/copyContentsLayoutsStaticConfig.gif?raw=true)
+
+Copy this file (link to download the `netlify.toml` file) and place it into your `myWebsite` folder.
+
+Link to download
+
+Delete the `config.toml` file in your `myWebsite` folder because the `config.yaml` file should replace it.
+
+We need to make some adjustments to the `config.yaml` file for the theme to work. 
+
+Open `config.yaml` using a text editor (such as Atom, Notepad++, or VS Code).
+
+Delete lines 6 and 7 and change `theme: hugo-theme-mini` to `theme: mini`.
 
 {gif}
 
-Copy this file (link to download the `netlify.toml` file) and place it into your `myWebsite` folder
+Save the file.
 
-![Netlify Toml File](/images/3/netlifyTomlFile.zip)
+Finally run `hugo serve` on your Command Line or terminal. 
 
-Delete the `config.toml` file in your `myWebsite` folder because the `config.yaml` file should replace it
-
-{gif}
+Then on your favorite browser, go to localhost:1313. You should see the theme is installed and already has content!
