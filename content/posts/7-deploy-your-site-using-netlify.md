@@ -60,11 +60,7 @@ Here, you are not installing anything on your local computer. You are actually j
   - Netlify automatically re-deploys your site everytime you make a commit and push it to your Github repository.
   - If the latest deploy attempt was successful, your site will be made live on the web at a randomly generated domain name. You can visit your live website on the randomly generated `<some-random-name>.netlify.app` link.
 
-<<<<<<< HEAD
-  ![/images/6/netlify-7.png](/images/6/netlify-7.png)
-=======
-      ![/images/7/netlify-7.png](/images/7/netlify-7.png)
->>>>>>> 7dbc0943584b7ea74618624dbb00e013b9518d17
+  ![/images/7/netlify-7.png](/images/7/netlify-7.png)
 
 **9.** If you wish, you can change the randomly generated domain name to something less random, by going into **Domain settings**.
 
