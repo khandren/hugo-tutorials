@@ -24,4 +24,6 @@ Open your `myWebsite` folder on your computer, navigate to `themes/mini/exampleS
 
 ![image info](/images/3/folders.png)
 
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 
