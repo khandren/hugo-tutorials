@@ -45,4 +45,4 @@ Save the file.
 
 Finally run `hugo serve` on your Command Line or terminal. 
 
-Then on your favorite browser, go to localhost:1313. You should see the theme is installed and already has content!
+Then on your favorite browser, go to [http://localhost:1313/](http://localhost:1313/). You should see the theme is installed and already has content!

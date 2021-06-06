@@ -10,7 +10,7 @@ Congratulations! Your website is actually ready to be publicly available on the 
 
 Earlier, when we copy-pasted the **content, layouts, static** folders and **config.yaml** file into our `myWebsite` folder, we were taking all the demo site's content, which can be found [here](https://themes.gohugo.io/theme/hugo-theme-cactus-plus/). So, they're not really our own content.
 
-So the pages you see at localhost:1313 are just placeholders. We now want to change it so that we have our own content on our pages. 
+So the pages you see at [http://localhost:1313/](http://localhost:1313/) are just placeholders. We now want to change it so that we have our own content on our pages. 
 
 Let's open our `myWebsite` Hugo project folder on a VSCode. 
 
@@ -41,7 +41,7 @@ Open up the `my-first-article.md` file on your text editor and change `draft: tr
 - When `draft` is set to `true`, the page will NOT show on your website, since it's still a draft.
 - When the `draft` is set to `false`, that means that the page will be published and you and other people will be able to open and read it.
 
-{draft gif}
+![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/4/draft.gif?raw=true)
 
 Re-visit [http://localhost:1313/](http://localhost:1313/) in your browser. You should be able to see your new page.
 
@@ -50,7 +50,7 @@ Re-visit [http://localhost:1313/](http://localhost:1313/) in your browser. You s
 We can start writing in some content in the new page we have just created.
 
 - Feel free to write anything if you're already familiar with Markdown.
-- If you're curious, check out the Markdown Syntax Guide [here](/content/posts/markdown-syntax.md) **OR**
+- If you're curious, check out the Markdown Syntax Guide [here](https://tutorial-blog.netlify.app/posts/markdown-syntax-guide/) **OR**
 - If you're in a hurry, we have also prepared some dummy content for you to fill in so that your article is ready to go.
 
 ```markdown
