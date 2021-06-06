@@ -28,19 +28,18 @@ Copy the content, layouts, static and config.yaml files into your `myWebsite` fo
 
 ![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/3/copyContentsLayoutsStaticConfig.gif?raw=true)
 
-Copy this file (link to download the `netlify.toml` file) and place it into your `myWebsite` folder.
 
-Link to download
+Copy the provided `netlify.toml` file and place it into your `myWebsite` folder.
+
+![Download the Netlify.toml](path)
 
 Delete the `config.toml` file in your `myWebsite` folder because the `config.yaml` file should replace it.
 
-We need to make some adjustments to the `config.yaml` file for the theme to work. 
-
-Open `config.yaml` using a text editor (such as Atom, Notepad++, or VS Code).
+Now, we need to make some adjustments to the `config.yaml` file for the theme to work. Open `config.yaml` using a text editor (such as Atom, Notepad++, or VS Code).
 
 Delete lines 6 and 7 and change `theme: hugo-theme-mini` to `theme: mini`.
 
-{gif}
+![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/3/configYaml.gif?raw=true)
 
 Save the file.
 

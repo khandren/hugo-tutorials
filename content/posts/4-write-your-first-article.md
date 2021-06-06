@@ -22,5 +22,68 @@ The way Hugo works is that each `.md` file in the folder `contents/posts` (as se
 
 So if you want to add a new page to your website, just add a new `.md` file, and write some content in it. You do not need to write any other code, since Hugo will do the rest.
 
+## Adding a new page
 
+To add a new page to your website, you can either create a new `.md` file manually under the  `contents/posts` folder, or you can run this command in your terminal or command line:
+
+```bash
+hugo new posts/my-first-article.md
+```
+
+When you create the page with `my-first-article.md`, `my-first-article` will be the link of the page in the browser `http://localhost:1313/posts/my-first-article`. 
+
+If you used the command above to generate the file, you will see that the file was generated already with some meta data (the title, date, and draft). The title can be changed and will not affect the link. If you created the file manually, you will have to type these in yourself.
+
+![image info](/images/4/addingANewPage.png)
+
+Open up the `my-first-article.md` file on your text editor and change `draft: true` to `draft: false` and save it.
+
+- When `draft` is set to `true`, the page will NOT show on your website, since it's still a draft.
+- When the `draft` is set to `false`, that means that the page will be published and you and other people will be able to open and read it.
+
+{draft gif}
+
+Re-visit [http://localhost:1313/](http://localhost:1313/) in your browser. You should be able to see your new page.
+
+## Adding Content to a Page
+
+We can start writing in some content in the new page we have just created.
+
+- Feel free to write anything if you're already familiar with Markdown.
+- If you're curious, check out the Markdown Syntax Guide [here](/content/posts/markdown-syntax.md) **OR**
+- If you're in a hurry, we have also prepared some dummy content for you to fill in so that your article is ready to go.
+
+```markdown
+---
+title: "All About Potatoes"
+date: 2021-06-02T19:02:09+10:00
+draft: false
+---
+
+# **All About Potatoes**
+
+Potatoes were introduced to Europe in the 16th Century by the Spanish. Today, they are now popular in many parts of the world and are included in many dishes such as Roast Chicken and Potato Bake. The world’s largest potato producing country is China, and today, there are now 5,000 different types of potatoes. 
+
+### **Potato Plants**
+
+Potato plants can grow up to 60cm high, depending on the variety. 
+
+### **Potatoes Facts**
+- Potatoes are a vegetable.
+- Potatoes are actually 80% water and 20% solid. 
+- Potatoes are sometimes used to make alcoholic beverages.
+- Idaho is known as the 'Potato State' as they grow many potatoes and have their own potato museum.
+
+### **Potatoes Quotes**
+- Everything in this world is either a potato or not a potato.
+
+### **Resources**
+- You can read more about potatoes [here](https://en.wikipedia.org/wiki/Potato). 
+
+![image info](/images/Potates.png)
+```
+
+To get images to work, add a new `images` folder under `static`. Add a photo called `Potates.png` in the new folder you have created.
+
+To view your new page, re-visit [http://localhost:1313/](http://localhost:1313/).
 
