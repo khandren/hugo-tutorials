@@ -1,7 +1,16 @@
 ---
-title: "5. Store your code on Github 📂"
+title: "6. Store your code on Github 📂"
 date: 2021-06-02T04:09:43+10:00
 draft: false
+---
+
+{{< next-prev 
+    prev-href="/posts/5.-write-your-first-article/" 
+    prev-text="5. Write Your First Article"
+    next-href="/posts/7.-deploy-your-site-using-netlify/" 
+    next-text="7. Deploy your site using Netlify"
+    >}}
+
 ---
 
 ## Create a Github repository
@@ -12,10 +21,10 @@ If you haven't already, make sure you have an account setup with [Github](https:
 
 On Github, create a new repository (A Github repository is a place where you can store your code for a project).
 
-- Add a name for the repository.
-- Make it public.
-- Leave the other options as their defaults.
-- Click on Create repository.
+- Add a name for the repository. We are using *"hugo-site"*
+- You can make your repository **public** or **private**
+- Leave the other options as their defaults
+- Click on **Create repository**
 
 ![Create Repo](/images/5/createRepo.png)
 
@@ -36,3 +45,9 @@ If completed successfully, you should be able to see your code stored in your Gi
 ![Code Stored on Github](/images/5/storedCode.png)
 
 
+{{< next-prev 
+    prev-href="/posts/5.-write-your-first-article/" 
+    prev-text="5. Write Your First Article"
+    next-href="/posts/7.-deploy-your-site-using-netlify/" 
+    next-text="7. Deploy your site using Netlify"
+    >}}

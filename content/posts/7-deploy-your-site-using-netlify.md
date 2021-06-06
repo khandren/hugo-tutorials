@@ -1,8 +1,18 @@
 ---
-title: "6. Deploy your site using Netlify 🚀"
+title: "7. Deploy your site using Netlify 🚀"
 date: 2021-06-02T03:21:18+10:00
 draft: false
 ---
+
+{{< next-prev 
+    prev-href="/posts/6.-store-your-code-on-github/" 
+    prev-text="6. Store your code on Github"
+    next-href="/posts/8.-making-changes-to-your-website/" 
+    next-text="8. Making Changes To Your Website"
+    >}}
+
+---
+
 # Deploy your site using Netlify
 
 [Netlify](https://www.netlify.com/) is a web-hosting service that can host your website for free. We will be using the GitHub repository we created for our Hugo blog with Netlify.
@@ -48,10 +58,10 @@ Here, you are not installing anything on your local computer. You are actually j
   ![/images/6/netlify-6.png](/images/6/netlify-6.png)
 
 **8.** After the setting up process is complete, you will now be taken to a page where you will be able to manage the deployment of your site. 
-    - Netlify automatically re-deploys your site everytime you make a commit and push it to your Github repository.
-    - If the latest deploy attempt was successful, your site will be made live on the web at a randomly generated domain name. You can visit your live website on the randomly generated `<some-random-name>.netlify.app` link.
+  - Netlify automatically re-deploys your site everytime you make a commit and push it to your Github repository.
+  - If the latest deploy attempt was successful, your site will be made live on the web at a randomly generated domain name. You can visit your live website on the randomly generated `<some-random-name>.netlify.app` link.
 
-      ![/images/6/netlify-7.png](/images/6/netlify-7.png)
+  ![/images/6/netlify-7.png](/images/6/netlify-7.png)
 
 **9.** If you wish, you can change the randomly generated domain name to something less random, by going into **Domain settings**.
 
@@ -74,3 +84,9 @@ Here, you are not installing anything on your local computer. You are actually j
 
   > **NOTE:** You will need to give your hugo site a different name, since this tutorial already uses `blast-furnace-hugo-site`.
 
+{{< next-prev 
+    prev-href="/posts/6.-store-your-code-on-github/" 
+    prev-text="6. Store your code on Github"
+    next-href="/posts/8.-making-changes-to-your-website/" 
+    next-text="8. Making Changes To Your Website"
+    >}}

@@ -1,9 +1,17 @@
 ---
-title: "4. Write Your First Article 📇"
+title: "5. Write Your First Article 📇"
 date: 2021-06-02T05:08:38+10:00
 draft: false
 ---
 
+{{< next-prev 
+    prev-href="/posts/4.-add-and-configure-a-theme" 
+    prev-text="4. Add and Configure a Theme"
+    next-href="/posts/6.-store-your-code-on-github/" 
+    next-text="6. Store your code on Github"
+    >}}
+
+---
 ## Website Pages and Content
 
 Congratulations! Your website is actually ready to be publicly available on the Internet. But, we haven't shown you how to create your own articles/blog posts.
@@ -87,3 +95,9 @@ To get images to work, add a new `images` folder under `static`. Add a photo cal
 
 To view your new page, re-visit [http://localhost:1313/](http://localhost:1313/).
 
+{{< next-prev 
+    prev-href="/posts/4.-add-and-configure-a-theme" 
+    prev-text="4. Add and Configure a Theme"
+    next-href="/posts/6.-store-your-code-on-github/" 
+    next-text="6. Store your code on Github"
+    >}}

@@ -3,7 +3,10 @@ title: "1. Start Here 🎯"
 date: 2021-06-02T10:51:55+10:00
 draft: false
 ---
+{{< next href="/posts/2.-install-hugo-windows" text="2. Install Hugo on a Windows">}}
+{{< next href="/posts/2.-install-hugo-mac" text="2. Install Hugo on a Mac">}}
 
+---
 ## Intro
 
 In this tutorial, we will walk you through creating a blog using [Hugo](https://gohugo.io/). Hugo is a Static Site Generator that has [themes/layouts](https://themes.gohugo.io/) that have already been created by developers, which we will use to set up our website. 
@@ -23,3 +26,6 @@ You will need to sign up for GitHub and Netlify accounts if you don't have them 
     - [VSCode](https://code.visualstudio.com/) (used in this example)
 - [ ]  Download [Git](https://git-scm.com/downloads)
     - Install Git for Mac through Setup [here](/posts/2.-install-hugo-mac)
+
+{{< next href="/posts/2.-install-hugo-windows" text="2. Install Hugo on a Windows">}}
+{{< next href="/posts/2.-install-hugo-mac" text="2. Install Hugo on a Mac">}}

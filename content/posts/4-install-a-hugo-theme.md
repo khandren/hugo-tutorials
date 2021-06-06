@@ -4,6 +4,14 @@ date: 2021-06-02T06:06:16+10:00
 draft: false
 ---
 
+{{< next-prev 
+    prev-href="/posts/3.-create-a-new-hugo-project/" 
+    prev-text="3. Create a new Hugo Project"
+    next-href="/posts/5.-write-your-first-article/" 
+    next-text="5. Write Your First Article"
+    >}}
+    
+---
 ## Adding a Hugo Theme
 
 There are so many [Hugo themes](https://themes.gohugo.io/) to choose from and they have slightly different ways to set it up depending on the one you pick. Most come with instructions on how to set them up, so be sure to check that they have setup instructions.
@@ -46,3 +54,10 @@ Save the file.
 Finally run `hugo serve` on your Command Line or terminal. 
 
 Then on your favorite browser, go to [http://localhost:1313/](http://localhost:1313/). You should see the theme is installed and already has content!
+
+{{< next-prev 
+    prev-href="/posts/3.-create-a-new-hugo-project/" 
+    prev-text="3. Create a new Hugo Project"
+    next-href="/posts/5.-write-your-first-article/" 
+    next-text="5. Write Your First Article"
+    >}}

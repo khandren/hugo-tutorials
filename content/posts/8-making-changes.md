@@ -1,7 +1,18 @@
 ---
-title: "7 - Making Changes To Your Website 🎲"
+title: "8. Making Changes To Your Website 🎲"
 date: 2021-06-02T03:21:18+10:00
 draft: false
+---
+
+{{< next-prev 
+    prev-href="/posts/7.-deploy-your-site-using-netlify/" 
+    prev-text="7. Deploy your site using Netlify"
+    next-href="/posts/1.-start-here" 
+    next-text="1. Start Over"
+    >}}
+
+{{< next href="/" text="Back Home">}}
+
 ---
 
 Now that your site is live on Netlify, every time you make a changes to the content on your computer - your live site won't reflect these changes right away.
@@ -28,3 +39,12 @@ For changes to show, you will need to:
     ```bash
     git push
     ```
+
+{{< next-prev 
+    prev-href="/posts/7.-deploy-your-site-using-netlify/" 
+    prev-text="7. Deploy your site using Netlify"
+    next-href="/posts/1.-start-here" 
+    next-text="1. Start Over"
+    >}}
+
+{{< next href="/" text="Back Home">}}

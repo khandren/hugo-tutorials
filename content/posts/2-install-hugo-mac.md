@@ -4,6 +4,15 @@ date: 2021-06-02T08:08:43+10:00
 draft: false
 ---
 
+{{< next-prev 
+    prev-href="/posts/1.-start-here" 
+    prev-text="1. Start Here"
+    next-href="/posts/3.-create-a-new-hugo-project/" 
+    next-text="3. Create a new Hugo Project"
+    >}}
+
+---
+
 > **To install Git on your Mac, you will need to first install Homebrew!**
 
 ## 1. Install a Package Manager (if you don't have one already)
@@ -37,3 +46,10 @@ If not, enter `brew install git` within the Terminal or Shell Prompt.
 We can now install Hugo by entering `brew install hugo` on our Terminal or Shell Prompt
 
 Enter `hugo help` to confirm Hugo is installed. You will get a bunch of Hugo flags and commands printed out.
+
+{{< next-prev 
+    prev-href="/posts/1.-start-here" 
+    prev-text="1. Start Here"
+    next-href="/posts/3.-create-a-new-hugo-project/" 
+    next-text="3. Create a new Hugo Project"
+    >}}

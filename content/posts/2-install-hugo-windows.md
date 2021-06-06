@@ -4,6 +4,15 @@ date: 2021-06-02T09:03:52+10:00
 draft: false
 ---
 
+{{< next-prev 
+    prev-href="/posts/1.-start-here" 
+    prev-text="1. Start Here"
+    next-href="/posts/3.-create-a-new-hugo-project/" 
+    next-text="3. Create a new Hugo Project"
+    >}}
+    
+---
+
 > **To install Hugo on Windows, you will need to first install a Package Manager.**
 
 ## Install a Package Manager (if you don't have one already)
@@ -55,5 +64,10 @@ This will print a bunch of flags and commands that can be used.
 
 ## Creating a new Hugo Project
 
-
+{{< next-prev 
+    prev-href="/posts/1.-start-here" 
+    prev-text="1. Start Here"
+    next-href="/posts/3.-create-a-new-hugo-project/" 
+    next-text="3. Create a new Hugo Project"
+    >}}
 
