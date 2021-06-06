@@ -10,4 +10,18 @@ There are so many [Hugo themes](https://themes.gohugo.io/) to choose from and th
 
 In this tutorial, we will use the [Mini theme](https://themes.gohugo.io/hugo-theme-cactus-plus/) for our Hugo site. 
 
-Enter the following commands in your Command Line / Terminal to install the Mini theme into your Hugo project:
+To install the Mini theme into your Hugo project, enter the following commands in your Command Line / Terminal:
+
+```bash
+cd myWebsite
+git init
+git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini
+```
+
+> **git init** - Initializes your myWebsite folder into a git repository. This means you will be able to store your code  on GitHub
+
+Open your `myWebsite` folder on your computer, navigate to `themes/mini/exampleSite`.
+
+![image info](/images/3/folders.png)
+
+
