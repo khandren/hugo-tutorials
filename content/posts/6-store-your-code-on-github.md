@@ -17,7 +17,7 @@ On Github, create a new repository (A Github repository is a place where you can
 - Leave the other options as their defaults.
 - Click on Create repository.
 
-![Create Repo](/images/5/createRepo.png)
+![Create Repo](/images/6/createRepo.png)
 
 Open the Git Bash terminal, and navigate to the local folder in your computer where you are storing the files for your Hugo Website. Run the commands:
 
@@ -29,10 +29,10 @@ git commit -m "first commit"
 
 After that, run three more commands (which are found on the Github page after you have created the repository).
 
-![Initialise Repo](/images/5/initRepo.png)
+![Initialise Repo](/images/6/initRepo.png)
 
 If completed successfully, you should be able to see your code stored in your Github repository when you refresh the page:
 
-![Code Stored on Github](/images/5/storedCode.png)
+![Code Stored on Github](/images/6/storedCode.png)
 
 

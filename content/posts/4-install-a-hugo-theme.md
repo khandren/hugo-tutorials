@@ -22,11 +22,11 @@ git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini
 
 Open your `myWebsite` folder on your computer, navigate to `themes/mini/exampleSite`.
 
-![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/3/miniThemes.gif?raw=true)
+![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/4/miniThemes.gif?raw=true)
 
 Copy the content, layouts, static and config.yaml files into your `myWebsite` folder.
 
-![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/3/copyContentsLayoutsStaticConfig.gif?raw=true)
+![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/4/copyContentsLayoutsStaticConfig.gif?raw=true)
 
 
 Copy the provided `netlify.toml` file and place it into your `myWebsite` folder.
@@ -39,7 +39,7 @@ Now, we need to make some adjustments to the `config.yaml` file for the theme to
 
 Delete lines 6 and 7 and change `theme: hugo-theme-mini` to `theme: mini`.
 
-![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/3/configYaml.gif?raw=true)
+![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/4/configYaml.gif?raw=true)
 
 Save the file.
 

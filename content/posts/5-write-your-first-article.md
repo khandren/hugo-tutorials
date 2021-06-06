@@ -16,7 +16,7 @@ Let's open our `myWebsite` Hugo project folder on a VSCode.
 
 If we expand the `content/posts` folder, we will see some `.md` (Markdown) files.
 
-![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/4/posts.gif?raw=true)
+![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/5/posts.gif?raw=true)
 
 The way Hugo works is that each `.md` file in the folder `contents/posts` (as seen in the gif) represents a page on the actual website.
 
@@ -34,14 +34,14 @@ When you create the page with `my-first-article.md`, `my-first-article` will be 
 
 If you used the command above to generate the file, you will see that the file was generated already with some meta data (the title, date, and draft). The title can be changed and will not affect the link. If you created the file manually, you will have to type these in yourself.
 
-![image info](/images/4/addingANewPage.png)
+![image info](/images/5/addingANewPage.png)
 
 Open up the `my-first-article.md` file on your text editor and change `draft: true` to `draft: false` and save it.
 
 - When `draft` is set to `true`, the page will NOT show on your website, since it's still a draft.
 - When the `draft` is set to `false`, that means that the page will be published and you and other people will be able to open and read it.
 
-![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/4/draft.gif?raw=true)
+![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/5/draft.gif?raw=true)
 
 Re-visit [http://localhost:1313/](http://localhost:1313/) in your browser. You should be able to see your new page.
 
