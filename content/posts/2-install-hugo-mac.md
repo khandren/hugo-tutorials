@@ -10,7 +10,7 @@ draft: false
 
 We will use [Homebrew](https://brew.sh/), a Package Manager, to assist in downloading Git and Hugo on our system.
 
-{{< centered-img src="/images/homebrew.png" title="homebrew" alt="homebrew">}}
+{{< centered-img src="/images/2/homebrew.png" title="homebrew" alt="homebrew">}}
 
 1. Open up the macOS Terminal or Linux shell prompt
 2. Then, copy-paste the following command and press `enter`
