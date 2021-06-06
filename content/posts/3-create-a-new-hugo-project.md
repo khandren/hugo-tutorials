@@ -12,34 +12,42 @@ draft: false
 
 ---
 
+## Setup where you will create the project
+
+**Using Windows**
+
+- You can navigate to your desktop using the command line. Run the command:
+  ```bash
+  cd Desktop
+  ```
+  
+{{< centered-img src="/images/3/cmd.PNG" title="homebrew" alt="homebrew">}}
+
+- Create a folder and right-click on the folder. Click on 'Git Bash here'. This will open a bash command line.
+  
+{{< centered-img src="/images/3/bash.png" title="homebrew" alt="homebrew">}}
+
+**Using MAC**
+- Simply open up the Terminal app and navigate to your desktop using the command `cd Desktop`.
+  ```bash
+  cd Desktop
+  ```
+
 ## Create a new Hugo Project
 
-Create a folder called **Hugo** on the Desktop. This Hugo folder will contain the website we are about to make. Feel free to create this folder elsewhere.
-
-- On Windows, right-click and do a 'Git Bash here' on your Desktop, or navigate to the folder using a command line.
-
-pic
-
-pic2
-
-- For Mac, simply open up the Terminal app and navigate to your desktop `cd Desktop`.
-- Then, enter the following commands:
+- Enter the following command:
 
 ```bash
 hugo new site myWebsite
 ```
 
-Feel free to change **myWebsite** to yourname-website, eg. john-website. This is essentially going to be the folder that holds everything that makes up a Hugo project.
-
 `hugo new site myWebsite` creates a new Hugo project named **myWebsite**
 
-A folder will be created with the website name you chose, already created with the main files that are needed for your website to work.
+> Feel free to change **myWebsite** to yourname-website, eg. john-website. This is essentially going to be the folder that holds everything that makes up a Hugo project.
 
-Inside your Hugo Folder, you will now see a new folder called `myWebsite`. Open it, and you will see that the skeleton or base of your website has been created:
+A folder will be created with the website name you chose (for example, `myWebsite`). It will be created with the main files that are needed for your website to work. If you open it, and you will see that the skeleton or base of your website will already be there:
 
-pic3
-
-{{< prev href="/posts/2.-install-hugo-windows" text="2. Install Hugo on a Windows">}}
+{{< centered-img src="/images/3/base.png" title="homebrew" alt="homebrew">}}
 
 {{< next-prev 
     prev-href="/posts/2.-install-hugo-mac" prev-text="2. Install Hugo on a Mac"

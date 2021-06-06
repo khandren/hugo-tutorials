@@ -10,7 +10,7 @@ draft: false
     next-href="/posts/3.-create-a-new-hugo-project/" 
     next-text="3. Create a new Hugo Project"
     >}}
-    
+
 ---
 
 > **To install Hugo on Windows, you will need to first install a Package Manager.**
@@ -38,7 +38,7 @@ iex (new-object net.webclient).downloadstring('Set-ExecutionPolicy RemoteSigned 
 
 If successful, you will be able to type `scoop help` and other scoop commands.
 
-![image info](/images/2Win/scoop.png)
+{{< centered-img src="/images/2/scoop.png" title="homebrew" alt="homebrew">}}
 
 ## Install Hugo
 
@@ -62,12 +62,10 @@ hugo help
 
 This will print a bunch of flags and commands that can be used.
 
-## Creating a new Hugo Project
-
 {{< next-prev 
     prev-href="/posts/1.-start-here" 
     prev-text="1. Start Here"
     next-href="/posts/3.-create-a-new-hugo-project/" 
     next-text="3. Create a new Hugo Project"
     >}}
-
+    
