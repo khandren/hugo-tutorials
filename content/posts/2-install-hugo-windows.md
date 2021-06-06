@@ -1,6 +1,5 @@
 ---
-title: "2. Install Hugo ⬇"
+title: "2. Install Hugo (Windows) ⬇"
 date: 2021-06-02T09:03:52+10:00
 draft: false
 ---
-
