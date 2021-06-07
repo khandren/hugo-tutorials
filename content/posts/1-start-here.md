@@ -25,7 +25,8 @@ The reason we need [GitHub](https://github.com/) is because we need to store our
     - [Notepad++](https://notepad-plus-plus.org/downloads/v7.9.5/) (Windows only)
     - [VSCode](https://code.visualstudio.com/) (used in this example)
 - [ ]  Download [Git](https://git-scm.com/downloads)
-    - Install Git for Mac through Setup [here](/posts/2.-install-hugo-mac)
+    - For Windows, leave the default settings when installing
+    - For Mac, follow the Git installation process [here](/posts/2.-install-hugo-mac)
 
 {{< next href="/posts/2.-install-hugo-windows" text="2. Install Hugo on a Windows">}}
 {{< next href="/posts/2.-install-hugo-mac" text="2. Install Hugo on a Mac">}}
