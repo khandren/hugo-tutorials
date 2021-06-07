@@ -17,7 +17,7 @@ The reason we need [GitHub](https://github.com/) is because we need to store our
 
 ## Pre-requisites
 
-You will need to sign up for GitHub and Netlify accounts if you don't have them already and also install Git Bash on your devices. It is also useful to have a text editor, which is useful for viewing the project on.
+<!-- You will need to sign up for GitHub and Netlify accounts if you don't have them already and also install Git Bash on your devices. It is also useful to have a text editor, which is useful for viewing the project on. -->
 
 - [ ]  Sign up for [GitHub](https://github.com/)
 - [ ]  Have a text editor! Any of the following will do:

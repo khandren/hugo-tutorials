@@ -12,7 +12,7 @@ draft: false
     >}}
 
 ---
-# Deploy your site using Netlify
+## Deploy your site using Netlify
 
 [Netlify](https://www.netlify.com/) is a web-hosting service that can host your website for free. We will be using the GitHub repository we created for our Hugo blog with Netlify.
 

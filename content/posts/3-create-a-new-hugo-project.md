@@ -14,23 +14,27 @@ draft: false
 
 ## Setup where you will create the project
 
+You can create your hugo site in a chosen directory. In this tutorial, we will just do it on our Desktop in a **Hugo** folder.
+
 **Using Windows**
 
-- You can navigate to your desktop using the command line. Run the command:
+- Right click on the **Hugo** folder
+- Click on 'Git Bash here'. This will open a bash command line.
+<!-- - You can navigate to your desktop using the command line. Run the command:
   ```bash
   cd Desktop
   ```
   
 {{< centered-img src="/images/3/cmd.PNG" title="homebrew" alt="homebrew">}}
 
-- Create a folder and right-click on the folder. Click on 'Git Bash here'. This will open a bash command line.
+- Create a folder and right-click on the folder. Click on 'Git Bash here'. This will open a bash command line. -->
   
 {{< centered-img src="/images/3/bash.png" title="homebrew" alt="homebrew">}}
 
 **Using MAC**
-- Simply open up the Terminal app and navigate to your desktop using the command `cd Desktop`.
+- Simply open up the Terminal app and navigate to your desktop using the command:
   ```bash
-  cd Desktop
+  cd Desktop/Hugo
   ```
 
 ## Create a new Hugo Project
