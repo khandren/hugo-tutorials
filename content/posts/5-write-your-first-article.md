@@ -20,9 +20,9 @@ Earlier, when we copy-pasted the **content, layouts, static** folders and **conf
 
 So the pages you see at [http://localhost:1313/](http://localhost:1313/) are just placeholders. We now want to change it so that we have our own content on our pages. 
 
-Let's open our `myWebsite` Hugo project folder on a VSCode. 
+**1.** Let's open our `myWebsite` Hugo project folder on a VSCode. 
 
-If we expand the `content/posts` folder, we will see some `.md` (Markdown) files.
+**2.** If we expand the `content/posts` folder, we will see some `.md` (Markdown) files.
 
 ![Alt Text](https://github.com/khandren/hugo-tutorials/blob/blog/static/images/5/posts.gif?raw=true)
 
@@ -32,19 +32,21 @@ So if you want to add a new page to your website, just add a new `.md` file, and
 
 ## Adding a new page
 
-To add a new page to your website, you can either create a new `.md` file manually under the  `contents/posts` folder, or you can run this command in your terminal or command line:
+**1.** To add a new page to your website, you can either create a new `.md` file manually under the  `contents/posts` folder, or you can run this command in your terminal or command line:
 
 ```bash
 hugo new posts/my-first-article.md
 ```
 
-When you create the page with `my-first-article.md`, `my-first-article` will be the link of the page in the browser `http://localhost:1313/posts/my-first-article`. 
+**2.** If you go back into the `content/posts` folder, you will see a new file, called `my-first-article.md`. This is a new page you have just created on your website.
 
-If you used the command above to generate the file, you will see that the file was generated already with some meta data (the title, date, and draft). The title can be changed and will not affect the link. If you created the file manually, you will have to type these in yourself.
+> If you used the command above to generate the file, you will see that the file was generated already with some meta data (the title, date, and draft). The title can be changed and will not affect the link. If you created the file manually, you will have to type these in yourself.
 
 ![image info](/images/5/addingANewPage.png)
 
-Open up the `my-first-article.md` file on your text editor and change `draft: true` to `draft: false` and save it.
+> When you create the page with `my-first-article.md`, `my-first-article` will be the link of the page in the browser `http://localhost:1313/posts/my-first-article`. 
+
+**3.** Open up the `my-first-article.md` file on your text editor and change `draft: true` to `draft: false` and save it.
 
 - When `draft` is set to `true`, the page will NOT show on your website, since it's still a draft.
 - When the `draft` is set to `false`, that means that the page will be published and you and other people will be able to open and read it.
@@ -76,22 +78,22 @@ Potatoes were introduced to Europe in the 16th Century by the Spanish. Today, th
 
 Potato plants can grow up to 60cm high, depending on the variety. 
 
-### **Potatoes Facts**
+### **Potato Facts**
 - Potatoes are a vegetable.
 - Potatoes are actually 80% water and 20% solid. 
 - Potatoes are sometimes used to make alcoholic beverages.
 - Idaho is known as the 'Potato State' as they grow many potatoes and have their own potato museum.
 
-### **Potatoes Quotes**
+### **Potato Quotes**
 - Everything in this world is either a potato or not a potato.
 
 ### **Resources**
 - You can read more about potatoes [here](https://en.wikipedia.org/wiki/Potato). 
 
-![image info](/images/Potates.png)
+![image info](/images/Potatoes.png)
 ```
 
-To get images to work, add a new `images` folder under `static`. Add a photo called `Potates.png` in the new folder you have created.
+To get images to work, add a new `images` folder under the `static` folder (in your website's directory). Inside the `images` folder you have just created, add a photo called `Potatoes` (make sure the photo matches the extension, in this case, a `png` image).
 
 To view your new page, re-visit [http://localhost:1313/](http://localhost:1313/).
 

@@ -28,17 +28,18 @@ Before we can install Hugo, we need to install a Package Manager. The package Ma
 
 Installing Scoop has similar steps to using Homebrew on a Mac or Linux system.
 
-1. Search for Windows Powershell, right click, 'Run as Admin'
-2. Copy paste the following command and press `enter`
+**1.** Search for Windows Powershell, right click, 'Run as Admin'
+
+**2.** Copy paste the following command and press `enter`
 
 ```bash
-iex (new-object net.webclient).downloadstring('[https://get.scoop.sh](https://get.scoop.sh/)')
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 
-3. If the above script is not allowed to be executed, try running this first:
+**3.** If the above script is not allowed to be executed, try running this first:
 
 ```bash
-iex (new-object net.webclient).downloadstring('Set-ExecutionPolicy RemoteSigned -scope CurrentUser')
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 ```
 
 If successful, you will be able to type `scoop help` and other scoop commands.
@@ -47,13 +48,13 @@ If successful, you will be able to type `scoop help` and other scoop commands.
 
 ## Install Hugo
 
-1. We can now install Hugo. Run the following command in Powershell:
+**1.** We can now install Hugo. Run the following command in Powershell:
 
 ```bash
 scoop install hugo
 ```
 
-2. Now within PowerShell (or go to Command Line), you can enter one of the commands below to confirm that hugo is now on your machine:
+**2.** Now within PowerShell (or go to Command Line), you can enter one of the commands below to confirm that hugo is now on your machine:
 
 ```bash
 hugo version
