@@ -16,7 +16,7 @@ draft: false
 
 [Netlify](https://www.netlify.com/) is a web-hosting service that can host your website for free. We will be using the GitHub repository we created for our Hugo blog with Netlify.
 
-**1.** If you don't have an account already, create a new account and sign in to [Netlify](https://app.netlify.com/). You should have the option to sign in using a Github account, so choose that option:
+**1.** If you don't have an account already, create a new account and sign up to [Netlify](https://app.netlify.com/). You should have the option to sign in/sign up using a Github account, so choose that option:
 
   ![/images/7/netlify-0.png](/images/7/netlify-0.png)
 

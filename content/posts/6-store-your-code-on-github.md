@@ -17,9 +17,9 @@ draft: false
 
 In order for the code to be hosted on the web (using Netlify, which we will get into later), we will store the code for our website remotely on [Github](https://github.com/).
 
-If you haven't already, make sure you have an account setup with [Github](https://github.com/).
+**1.** If you haven't already, make sure you have an account setup with [Github](https://github.com/).
 
-On Github, create a new repository (A Github repository is a place where you can store your code for a project).
+**2.** On Github, create a new repository (A Github repository is a place where you can store your code for a project).
 
 - Add a name for the repository. We are using *"hugo-site"*
 - You can make your repository **public** or **private**
@@ -28,15 +28,14 @@ On Github, create a new repository (A Github repository is a place where you can
 
 ![Create Repo](/images/6/createRepo.png)
 
-Open the Git Bash terminal, and navigate to the local folder in your computer where you are storing the files for your Hugo Website. Run the commands:
+**3.** Open the Git Bash terminal, and navigate to the local folder in your computer where you are storing the files for your Hugo Website. Run the commands:
 
 ```markdown
-git init
 git add .
 git commit -m "first commit"
 ```
 
-After that, run three more commands (which are found on the Github page after you have created the repository).
+**4.** After that, run three more commands (which are found on the Github page after you have created the repository).
 
 ![Initialise Repo](/images/6/initRepo.png)
 
