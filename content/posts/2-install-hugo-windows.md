@@ -32,7 +32,7 @@ Installing Scoop has similar steps to using Homebrew on a Mac or Linux system.
 2. Copy paste the following command and press `enter`
 
 ```bash
-iex (new-object net.webclient).downloadstring('[https://get.scoop.sh](https://get.scoop.sh/)')
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 
 3. If the above script is not allowed to be executed, try running this first:
