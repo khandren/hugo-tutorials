@@ -11,7 +11,7 @@ author = "Sora Khan & Sharlene Von Drehnen"
 It's great if you want to start a blog, create an online portfolio, or both. You can even share videos or audio like we did for our Podcast! -->
 
 ## About This Site
-The purpose of this site is to walk you through setting up your system to work with Hugo and Git, then finally host your Hugo site on Netlify. 
+The purpose of this site is to walk you through setting up your system to work with [Hugo](https://gohugo.io/) and [Git](https://git-scm.com/), then finally host your Hugo site on [Netlify](https://www.netlify.com/) with the help of [GitHub](https://github.com/). 
 
 ### *Once you complete this tutorial...*
 - We hope that you enjoyed it and can see that Hugo is a really simple framework to use! 

@@ -30,9 +30,9 @@ social:
 # Site parameters
 params:
   # Site Author
-  author: Sharlene & Sora
+  author: SVDK
   # Author biography
-  bio: 'How to Create a Hugo Blog Site'
+  bio: ''
   # Site Description, used in HTML meat
   description: Hugo Blog
   enableRSS: true
