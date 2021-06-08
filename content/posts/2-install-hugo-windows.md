@@ -38,7 +38,7 @@ iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 3. If the above script is not allowed to be executed, try running this first:
 
 ```bash
-iex (new-object net.webclient).downloadstring('Set-ExecutionPolicy RemoteSigned -scope CurrentUser')
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 ```
 
 If successful, you will be able to type `scoop help` and other scoop commands.
