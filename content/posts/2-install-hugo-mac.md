@@ -34,7 +34,8 @@ We will use [Homebrew](https://brew.sh/), a Package Manager, to assist in downlo
 ```
 
 **3.** The script will run and may request your device's login password
-    - Type your password even though you don't see anything being typed onto the Terminal/Shell, then press `enter`
+- Type your password even though you don't see anything being typed onto the Terminal/Shell, then press `enter`
+
 **4.** You will get a "Installation successful!" message once Homebrew has completed and successfully been installed.
 
 > 💡 ***[Homebrew](https://brew.sh/)*** is a Package Manager. Package managers allow you to download and install certain programs or tools easily using commands in a MacOS Terminal or Linux Prompt Shell. For example, NuGet is for downloading packages/libraries easily into VS. This is a similar concept where you can download some programs/tools using the command line.
