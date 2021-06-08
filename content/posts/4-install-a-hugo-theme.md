@@ -39,7 +39,7 @@ Copy the content, layouts, static and config.yaml files into your `myWebsite` fo
 
 Copy the provided `netlify.toml` file and place it into your `myWebsite` folder.
 
-![Download the Netlify.toml](path)
+{{< download >}}
 
 Delete the `config.toml` file in your `myWebsite` folder because the `config.yaml` file should replace it.
 
