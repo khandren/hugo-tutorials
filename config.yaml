@@ -21,20 +21,20 @@ markup:
 # Social links in footer, support github,twitter,stackoverflow,facebook
 social:
   # e.g.
-  github: your-github-link
-  twitter: your-github-link
-  stackoverflow: your-github-link
+  # github: your-github-link
+  # twitter: your-github-link
+  # stackoverflow: your-github-link
   # facebook: your-facebook-link
 
 
 # Site parameters
 params:
   # Site Author
-  author: Author
+  author: Sharlene & Sora
   # Author biography
-  bio: ''
+  bio: 'How to Create a Hugo Blog Site'
   # Site Description, used in HTML meat
-  description: My Blog
+  description: Hugo Blog
   enableRSS: true
   # To enable comments, you may need to set `disqusShortname`
   enableComments: true

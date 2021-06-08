@@ -1,7 +1,7 @@
 ---
 title: "4. Add and Configure a Theme 🎨"
 date: 2021-06-02T06:06:16+10:00
-draft: false
+draft: true
 ---
 
 {{< next-prev 

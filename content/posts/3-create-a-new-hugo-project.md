@@ -1,7 +1,7 @@
 ---
 title: "3. Create a new Hugo Project 🗳"
 date: 2021-06-02T08:08:43+10:00
-draft: false
+draft: true
 ---
 
 {{< next-prev 

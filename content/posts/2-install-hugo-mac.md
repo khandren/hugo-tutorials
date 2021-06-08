@@ -4,11 +4,15 @@ date: 2021-06-02T08:08:43+10:00
 draft: false
 ---
 
-{{< next-prev 
+<!-- {{< next-prev 
     prev-href="/posts/1.-start-here" 
     prev-text="1. Start Here"
     next-href="/posts/3.-create-a-new-hugo-project/" 
     next-text="3. Create a new Hugo Project"
+    >}} -->
+{{< prev 
+    href="/posts/1.-start-here" 
+    text="1. Start Here"
     >}}
 
 ---
@@ -47,9 +51,13 @@ We can now install Hugo by entering `brew install hugo` on our Terminal or Shell
 
 Enter `hugo help` to confirm Hugo is installed. You will get a bunch of Hugo flags and commands printed out.
 
-{{< next-prev 
+<!-- {{< next-prev 
     prev-href="/posts/1.-start-here" 
     prev-text="1. Start Here"
     next-href="/posts/3.-create-a-new-hugo-project/" 
     next-text="3. Create a new Hugo Project"
+    >}} -->
+{{< prev 
+    href="/posts/1.-start-here" 
+    text="1. Start Here"
     >}}
