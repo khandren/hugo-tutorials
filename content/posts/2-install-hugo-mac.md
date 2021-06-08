@@ -29,9 +29,9 @@ We will use [Homebrew](https://brew.sh/), a Package Manager, to assist in downlo
 
 **2.** Then, copy-paste the following command and press `enter`
 
-    ```bash
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 **3.** The script will run and may request your device's login password
     - Type your password even though you don't see anything being typed onto the Terminal/Shell, then press `enter`
