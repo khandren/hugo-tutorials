@@ -4,16 +4,16 @@ date: 2021-06-02T08:08:43+10:00
 draft: false
 ---
 
-<!-- {{< next-prev 
+{{< next-prev 
     prev-href="/posts/1.-start-here" 
     prev-text="1. Start Here"
     next-href="/posts/3.-create-a-new-hugo-project/" 
     next-text="3. Create a new Hugo Project"
-    >}} -->
-{{< prev 
+    >}}
+<!-- {{< prev 
     href="/posts/1.-start-here" 
     text="1. Start Here"
-    >}}
+    >}} -->
 
 ---
 
@@ -28,10 +28,10 @@ We will use [Homebrew](https://brew.sh/), a Package Manager, to assist in downlo
 **1.** Open up the macOS Terminal or Linux shell prompt
 
 **2.** Then, copy-paste the following command and press `enter`
-
-    ```bash
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
+    
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 **3.** The script will run and may request your device's login password
     - Type your password even though you don't see anything being typed onto the Terminal/Shell, then press `enter`
@@ -51,13 +51,13 @@ We can now install Hugo by entering `brew install hugo` on our Terminal or Shell
 
 Enter `hugo help` to confirm Hugo is installed. You will get a bunch of Hugo flags and commands printed out.
 
-<!-- {{< next-prev 
+{{< next-prev 
     prev-href="/posts/1.-start-here" 
     prev-text="1. Start Here"
     next-href="/posts/3.-create-a-new-hugo-project/" 
     next-text="3. Create a new Hugo Project"
-    >}} -->
-{{< prev 
+    >}}
+<!-- {{< prev 
     href="/posts/1.-start-here" 
     text="1. Start Here"
-    >}}
+    >}} -->
