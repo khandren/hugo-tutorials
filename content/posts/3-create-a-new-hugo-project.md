@@ -9,6 +9,7 @@ draft: false
     next-href="/posts/4.-add-and-configure-a-theme" 
     next-text="4. Add and Configure a Theme"
     >}}
+{{< prev href="/posts/2.-install-hugo-windows" text="2. Install Hugo on a Windows">}}
 
 ---
 
@@ -58,3 +59,4 @@ A folder will be created with the website name you chose (for example, `myWebsit
     next-href="/posts/4.-add-and-configure-a-theme" 
     next-text="4. Add and Configure a Theme"
     >}}
+{{< prev href="/posts/2.-install-hugo-windows" text="2. Install Hugo on a Windows">}}
