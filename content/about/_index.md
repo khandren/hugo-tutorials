@@ -20,4 +20,3 @@ The purpose of this site is to walk you through setting up your system to work w
   - Or, share videos or audio like we did for our podcast!
 - There's so much more you can do with Hugo, we have just scraped the surface.
 - But hopefully, you can see that you get to focus on your content by worrying less about setting up databases, for example.
-
